@@ -1,10 +1,12 @@
 # Fresh-Sales-Tool V3.0
 
+(Cannot add code for proprietary reasons)
+
 ### Goal: To predict daily sales of fresh products at a club-item level
 
 ### V1.0: implmented a moving average model
 
-### V2.0: has few time series approaches running daily
+### V2.0: has few time series approaches running daily. A Std. dev. based safety stock added
 
 ### V3.0: aimed at further improving the accuracy of prediction and also implementing a Bayesian framework to estimate safety stock
 
@@ -15,11 +17,11 @@
 ### 2. Obtaining Baseline metrics for the current state
 - Models trained for 2 years and tested on three weeks in May 2018 independently
 - Results stored for future use 
-- %MAPE of x% for 10 selected products
-- Adding safety stock increases the %MAPE to y%, and, has P(OOS) of z% 
+- %MAPE of M% for 10 selected products
+- Adding safety stock increases the %MAPE to S%, and, has P(OOS) of P% 
 
 ### 3. Selecting products for proof of concept
-- Selected 10 products in a certain mid-US club
+- Selected 12 products in a certain mid-US club
 - Products chosen for diversity in departments and also on previous model performance
 
 ### 4. Feature Selection and Engineering
@@ -38,9 +40,9 @@
 
 ### 6. Other models: Multilayered Perceptron, Gradient Boosting
 - Perform the best among all models
-- MLP has a %MAPE improvement of 24%
-- GB has a %MAPE improvement of ~27%
+- MLP has a %MAPE improvement of ~27%
+- GB has a %MAPE improvement of ~28%
 
 ### 7. Ensemble Approach
 - Ensemble of ARIMAX, GP, MLP and GB
-- Results pending
+- More robust than before with similar metrics
