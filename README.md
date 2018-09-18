@@ -4,11 +4,11 @@
 
 ### Goal: To predict daily sales of fresh products at a club-item level
 
-### V1.0: implmented a moving average model
+#### V1.0: implmented a moving average model
 
-### V2.0: has few time series approaches running daily. A Std. dev. based safety stock added
+#### V2.0: has few time series approaches running daily. A Std. dev. based safety stock added
 
-### V3.0: aimed at further improving the accuracy of prediction and also implementing a Bayesian framework to estimate safety stock
+#### V3.0: aimed at further improving the accuracy of prediction and also implementing a Bayesian framework to estimate safety stock
 
 ## Approach
 
